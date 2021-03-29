@@ -1,0 +1,16 @@
+Normalizacion de BBDD
+-Primera Forma Normal(1NF):
+	Una tabla sigue la Primera forma normal si:
+		- Ninguna fila de datos esta repetida.
+		- Cada columna contiene un valor unico.
+		- La tabla tiene una Primary Key.
+
+-Segunda Forma Normal(2NF): 
+	Una tabla sigue la segunda forma normal si:
+		- Sigue las reglas de la Primera forma normal.
+		- Toda columna que no es Clave Primaria es dependiente de la la Clave Primaria entera.
+
+-Tercera Forma Normal(3NF):
+	Una tabla sigue la Tercera forma normal es:
+		- Sigue las reglas de la Segunda forma normal.
+		- Toda columna no primaria(No forma parte de la primary key) no depende de otra columna no primaria.
