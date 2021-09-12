@@ -1,6 +1,8 @@
 create database usuarios;
 use usuarios;
 
+show databases;
+
 create table usuario(
 	id int(10) not null ,
     usuario varchar(10) not null,
@@ -61,3 +63,10 @@ modify usuario char(5);
 -- Eliminamos una columna
 alter table usuario
 drop column rol;
+
+
+-- Vaciamos una tabla, es decir eliminamos todos los datos de la tabla
+truncate table nombre_tabla;
+
+-- Visualizamos los datos y sus respectivos tipos
+describe nombre_tabla;
