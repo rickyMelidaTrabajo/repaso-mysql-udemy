@@ -71,3 +71,10 @@ insert into empleados values(158, 'ANDRES', 5000, 2500);
 
 -- Devolvemos todos los valores y solo muestra un vez el campo repetido
 select distinct nombre from empleados;
+
+-- La suma total de todos los sueldos
+select sum(sueldo) from empleados;
+
+
+--Cantidad de registros que tiene una tabla
+select count(sueldo) from empleados;
